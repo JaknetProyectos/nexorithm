@@ -1,0 +1,281 @@
+{
+  "header": {
+    "logoAlt": "nexorithm.com.mx",
+    "titleAlt": "nexorithm.com.mx",
+    "cart": "Basket",
+    "openMenu": "Show menu",
+    "closeMenu": "Hide menu",
+    "nav": {
+      "home": "Main",
+      "packages": "Plans",
+      "contact": "Get in touch"
+    }
+  },
+  "contactSection": {
+    "badge": "Try Nexorithm",
+    "title": "Advance your project today.",
+    "description": "Discover the power and speed of our cloud infrastructure with no obligations. Register for an initial assessment or ask for a guided demo.",
+    "benefits": {
+      "platform": "Complete access to our hosting and domain management console.",
+      "support": "Dedicated technical assistance during your trial to guarantee a fluid experience.",
+      "consultation": "Complimentary initial consultation to help design your upcoming software development project."
+    },
+    "messages": {
+      "success": "Message submitted successfully! We will contact you shortly.",
+      "error": "A problem occurred while delivering your message. Please try once more."
+    },
+    "sendAnother": "Send another message",
+    "form": {
+      "title": "Drop us a line",
+      "subtitle": "We will reply within less than 24 business hours.",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "Email address",
+      "subjectPlaceholder": "Topic",
+      "messagePlaceholder": "What are the requirements of your infrastructure or project?",
+      "sending": "Processing...",
+      "submit": "Submit Message"
+    }
+  },
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Review",
+      "shippingPayment": "2. Delivery and Payment Details"
+    },
+    "success": {
+      "title": "Payment Authorized Successfully!",
+      "description": "Your transaction has been approved. The records for your medical order are currently being processed.",
+      "paymentReference": "Payment ID:",
+      "paidAmount": "Total Paid:",
+      "transactionStatus": "Transaction State:",
+      "approved": "APPROVED",
+      "backToCatalog": "Return to Catalog"
+    },
+    "empty": {
+      "title": "Your shopping cart is empty",
+      "description": "We could not find any medical supplies selected in your current browsing session.",
+      "goToStore": "View Catalog"
+    },
+    "order": {
+      "title": "Products in Your Order",
+      "clear": "Remove Items"
+    },
+    "financial": {
+      "title": "Account Summary",
+      "couponPlaceholder": "Promo code",
+      "applyCoupon": "Validate",
+      "appliedCoupon": "Promo {code} (-{discount}%)",
+      "remove": "Delete",
+      "couponInvalid": "The discount code you entered is invalid or has expired.",
+      "subtotal": "Subtotal amount:",
+      "discount": "Discount applied:",
+      "netTotal": "Net Balance Due:",
+      "tax": "VAT {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Continue to Payment Form",
+      "processing": "Checking Funds through Etomin...",
+      "payAmount": "Authorize {amount}",
+      "backToCart": "Edit my order / Modify coupon"
+    },
+    "errors": {
+      "declined": "The charge was rejected by the card issuer.",
+      "connection": "A communication error occurred with the payment platform."
+    },
+    "metadata": {
+      "couponApplied": "Promo code active",
+      "standardSale": "Standard digital purchase"
+    },
+    "form": {
+      "buyerTitle": "Purchaser / Billing Details",
+      "addressTitle": "Shipping and Delivery Address",
+      "paymentTitle": "Secured Payment Gateway",
+      "firstName": "First Name(s) *",
+      "lastName": "Last Name(s) *",
+      "email": "Email Address *",
+      "phone": "Cell Phone (10 digits) *",
+      "company": "Company (Optional)",
+      "streetAddress": "Street, Exterior No. and Interior No. *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "Neighborhood / Intersections (Optional)",
+      "neighborhoodPlaceholder": "Vértiz Narvarte",
+      "city": "City *",
+      "state": "State / Province *",
+      "statePlaceholder": "Mexico City",
+      "postalCode": "ZIP / Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder Full Name *",
+      "cardHolderPlaceholder": "Exactly as shown on the card",
+      "expiryMonth": "Exp. Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Exp. Year (YYYY) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Security Code (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Secured Transaction"
+    },
+    "images": {
+      "etominAlt": "Etomin",
+      "securePaymentAlt": "Safe transaction"
+    }
+  },
+  "contactPage": {
+    "map": {
+      "title": "Nexorithm Corporate Headquarters"
+    },
+    "office": {
+      "badge": "Main Office",
+      "city": "Mexico City",
+      "addressLine1": "1677 Insurgentes Avenue, Office 806-B, Guadalupe Inn,",
+      "addressLine2": "Álvaro Obregón Borough, ZIP Code 01020"
+    },
+    "sidebar": {
+      "badge": "Direct contact",
+      "title": "Reach out to us now.",
+      "description": "If you have technical inquiries about our cloud clusters, need a tailored quotation, or require platform assistance, contact our engineering department."
+    },
+    "success": {
+      "title": "Inquiry Received!",
+      "description": "We appreciate your interest. A dedicated support engineer will assess your needs and contact you via email within 24 hours.",
+      "button": "Send another message"
+    },
+    "form": {
+      "error": "Error submitting information",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Ex. Carlos Mendoza",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "carlos@company.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Service quotation",
+      "messageLabel": "How can we assist you?",
+      "messagePlaceholder": "Provide details about your system layout or the specifications of the custom plan you require...",
+      "loading": "Submitting requirements...",
+      "submit": "Submit Request"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "User Dashboard",
+      "title": "Add tailored quotation"
+    },
+    "imageAlt": "Nexorithm logo",
+    "authorized": {
+      "title": "Payment verified",
+      "description": "Please provide the quotation number and the price previously agreed with our commercial team to proceed with your checkout."
+    },
+    "form": {
+      "badge": "Tailored checkout",
+      "title": "Quotation details",
+      "quoteLabel": "Quotation number",
+      "quotePlaceholder": "Ex. NEX-2026-001",
+      "amountLabel": "Agreed price",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Corresponding VAT will be added on the following screen."
+    },
+    "buttons": {
+      "adding": "Placing in basket...",
+      "addToCart": "Add to basket"
+    },
+    "errors": {
+      "quoteRequired": "You must provide a valid quotation number.",
+      "invalidAmount": "You must enter a valid financial amount."
+    }
+  },
+  "plansPage": {
+    "hero": {
+      "title": "High-efficiency configurations.",
+      "description": "Regardless of the size or sector of your firm, at <strong>Nexorithm</strong> we provide the ideal hosting architecture to scale your digital enterprise.",
+      "imageAlt": "Scalable Nexorithm infrastructure"
+    },
+    "pricing": {
+      "title": "Select your Hosting environment",
+      "description": "Optimized deployment with NVMe storage, isolated environments, and unmetered monthly traffic.",
+      "currency": "MXN + VAT"
+    },
+    "custom": {
+      "badge": "Tailored systems",
+      "title": "Looking for something specific?",
+      "steps": {
+        "quote": {
+          "title": "Quick estimate",
+          "description": "Connect with our engineers to configure your CPU and RAM specifications."
+        },
+        "payment": {
+          "title": "Protected transaction",
+          "description": "Complete your purchase securely and easily using your custom link."
+        },
+        "deploy": {
+          "title": "Immediate activation",
+          "description": "Your custom cloud space will be automatically provisioned, and an email confirmation will be sent."
+        }
+      }
+    },
+    "buttons": {
+      "hirePlan": "Get Started",
+      "requestQuote": "Ask for Estimate",
+      "payExistingOrder": "Settle Open Invoice"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Advanced <span>hosting</span> and software engineering.",
+      "description": "At <strong>Nexorithm</strong>, we deliver state-of-the-art hosting environments and custom application development designed to reinforce your online presence with absolute stability.",
+      "imageAlt": "Nexorithm hosting solutions"
+    },
+    "featuresSection": {
+      "title": "Why select our architecture?",
+      "description": "Systems tailored specifically to eliminate latency and maximize your system uptime."
+    },
+    "features": {
+      "support": {
+        "title": "24/7 Expert Support",
+        "text": "Enjoy absolute peace of mind with our day-and-night technical help. Our dedicated professionals are always available to help you with any challenge, keeping your digital systems running perfectly."
+      },
+      "security": {
+        "title": "Protected Development",
+        "text": "Engineer tailor-made applications with a core focus on safety and scalability. Our skilled developers apply industry standards to safeguard your files and optimize client experiences."
+      },
+      "hosting": {
+        "title": "Stable Web Hosting",
+        "text": "Get unparalleled performance through our top-tier web hosting plans. Structured for organizations of any scale, ensuring your web portal stays online and protected at all times."
+      }
+    },
+    "illustrations": {
+      "hosting": {
+        "eyebrow": "Greater Efficiency",
+        "title": "In search of robust web hosting?",
+        "text": "With Nexorithm, ensure the reliability and speed of your platform. Our web hosting solutions are built to supply maximum speed and protection, keeping your deployment accessible around the clock."
+      },
+      "support": {
+        "eyebrow": "Assistance",
+        "title": "Continuous Expert Help",
+        "text": "Our mission is to offer the support you require, exactly when you need it. With an engineering team available 24 hours a day, 7 days a week, we are here to solve any concern."
+      },
+      "development": {
+        "eyebrow": "Trusted Engineering",
+        "title": "Optimized and Safe Platforms",
+        "text": "Turn your concepts into reality through bespoke application development. At Nexorithm, we combine sophisticated tools and leading safety configurations to deliver results that exceed goals."
+      }
+    },
+    "learnMore": "Read more"
+  },
+  "footer": {
+    "logoAlt": "Nexorithm",
+    "titleAlt": "Nexorithm",
+    "description": "High-efficiency web architecture and bespoke cloud solutions in Mexico.",
+    "contact": "Support",
+    "address": "1677 Insurgentes Avenue, Office 806-B, Guadalupe Inn, Álvaro Obregón, Mexico City, ZIP Code 01020",
+    "cardsAlt": "Visa and Mastercard accepted",
+    "copyright": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "refunds": "Cancellation and Refund Policies"
+    }
+  }
+}

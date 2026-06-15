@@ -1,0 +1,281 @@
+{
+  "header": {
+    "logoAlt": "nexorithm.com.mx",
+    "titleAlt": "nexorithm.com.mx",
+    "cart": "Cesta",
+    "openMenu": "Desplegar menú",
+    "closeMenu": "Ocultar menú",
+    "nav": {
+      "home": "Principal",
+      "packages": "Planes",
+      "contact": "Escríbenos"
+    }
+  },
+  "plansPage": {
+    "hero": {
+      "title": "Planes de gran rendimiento.",
+      "description": "Sin importar el volumen o sector de tu compañía, en <strong>Nexorithm</strong> contamos con la infraestructura de alojamiento ideal para potenciar tu entorno digital.",
+      "imageAlt": "Infraestructura escalable de Nexorithm"
+    },
+    "pricing": {
+      "title": "Selecciona tu entorno de Hosting",
+      "description": "Almacenamiento optimizado mediante unidades NVMe, recursos aislados y tráfico mensual ilimitado.",
+      "currency": "MXN + IVA"
+    },
+    "custom": {
+      "badge": "Soluciones a la medida",
+      "title": "¿Buscas un diseño especial?",
+      "steps": {
+        "quote": {
+          "title": "Presupuesto rápido",
+          "description": "Contacta a nuestro personal de ingeniería para dimensionar tus necesidades de CPU y RAM."
+        },
+        "payment": {
+          "title": "Transacción protegida",
+          "description": "Realiza tu pago de forma práctica y encriptada a través de tu link exclusivo."
+        },
+        "deploy": {
+          "title": "Activación inmediata",
+          "description": "Tu espacio cloud personalizado se configurará de forma automática y se te avisará por correo."
+        }
+      }
+    },
+    "buttons": {
+      "hirePlan": "Adquirir Plan",
+      "requestQuote": "Pedir Cotización",
+      "payExistingOrder": "Liquidar Orden Pendiente"
+    }
+  },
+  "contactSection": {
+    "badge": "Prueba Nexorithm",
+    "title": "Lleva tu proyecto al siguiente nivel hoy.",
+    "description": "¡Comprueba la fuerza y rapidez de nuestra infraestructura cloud sin obligaciones! Regístrate para una asesoría previa o solicita una demostración guiada.",
+    "benefits": {
+      "platform": "Ingreso total a nuestra consola de administración de hosting y dominios.",
+      "support": "Asistencia técnica especializada durante tu periodo de prueba para asegurar un uso fluido.",
+      "consultation": "Asesoramiento inicial sin costo para planificar tu próxima arquitectura de aplicaciones."
+    },
+    "messages": {
+      "success": "¡Tu mensaje ha sido enviado! Nos comunicaremos contigo a la brevedad.",
+      "error": "Hubo un fallo al enviar el formulario. Por favor, vuelve a intentarlo."
+    },
+    "sendAnother": "Redactar otro mensaje",
+    "form": {
+      "title": "Contáctanos",
+      "subtitle": "Te responderemos en un plazo menor a 24 horas laborables.",
+      "namePlaceholder": "Nombre completo",
+      "emailPlaceholder": "Dirección de correo",
+      "subjectPlaceholder": "Motivo",
+      "messagePlaceholder": "¿Cuáles son los requerimientos de tu infraestructura o plan?",
+      "sending": "Procesando envío...",
+      "submit": "Enviar Formulario"
+    }
+  },
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "summary": "1. Revisión",
+      "shippingPayment": "2. Entrega y Pago"
+    },
+    "success": {
+      "title": "¡Transacción Completada Exitosamente!",
+      "description": "Tu pago ha sido autorizado. El pedido de tus insumos médicos ya está en fase de preparación para su envío.",
+      "paymentReference": "Referencia de Pago:",
+      "paidAmount": "Monto Liquidado:",
+      "transactionStatus": "Estado del Pago:",
+      "approved": "AUTORIZADA",
+      "backToCatalog": "Regresar al Catálogo"
+    },
+    "empty": {
+      "title": "Tu cesta de compras está vacía",
+      "description": "No se detectaron insumos médicos guardados en tu sesión de navegación actual.",
+      "goToStore": "Ver el Catálogo"
+    },
+    "order": {
+      "title": "Productos en tu orden",
+      "clear": "Eliminar Materiales"
+    },
+    "financial": {
+      "title": "Resumen de Cuenta",
+      "couponPlaceholder": "Código promocional",
+      "applyCoupon": "Aplicar",
+      "appliedCoupon": "Cupón {code} (-{discount}%)",
+      "remove": "Quitar",
+      "couponInvalid": "El código de descuento no es válido o ya expiró.",
+      "subtotal": "Subtotal de Productos:",
+      "discount": "Descuento Obtenido:",
+      "netTotal": "Monto Neto a Liquidar:",
+      "tax": "IVA {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Avanzar al Pago",
+      "processing": "Validando Transacción por medio de Etomin...",
+      "payAmount": "Pagar {amount}",
+      "backToCart": "Modificar pedido / Modificar cupón"
+    },
+    "errors": {
+      "declined": "El cargo fue denegado por el banco emisor.",
+      "connection": "Se experimentó un problema de enlace con el procesador de pagos."
+    },
+    "metadata": {
+      "couponApplied": "Cupón de descuento activo",
+      "standardSale": "Adquisición digital convencional"
+    },
+    "form": {
+      "buyerTitle": "Datos de Facturación / Comprador",
+      "addressTitle": "Información de Entrega y Distribución",
+      "paymentTitle": "Pasarela de Cobro Encriptada",
+      "firstName": "Nombre(s) *",
+      "lastName": "Apellidos *",
+      "email": "Correo electrónico *",
+      "phone": "Teléfono Móvil (10 posiciones) *",
+      "company": "Empresa (Opcional)",
+      "streetAddress": "Vía pública, Número Exterior y Número Interior *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia / Entre Calles (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Alcaldía o Localidad *",
+      "state": "Provincia / Estado *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Código Postal *",
+      "country": "Territorio",
+      "mexico": "México (MX)",
+      "cardNumber": "Número de Tarjeta (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Titular de la Tarjeta *",
+      "cardHolderPlaceholder": "Tal como aparece en la tarjeta",
+      "expiryMonth": "Mes Exp. (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Año Exp. (AAAA) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Código de Verificación (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Proceso gestionado bajo estándares de seguridad"
+    },
+    "images": {
+      "etominAlt": "Etomin",
+      "securePaymentAlt": "Pago seguro"
+    }
+  },
+  "contactPage": {
+    "map": {
+      "title": "Dirección Fiscal Nexorithm"
+    },
+    "office": {
+      "badge": "Oficina Principal",
+      "city": "Ciudad de México",
+      "addressLine1": "Avenida Insurgentes 1677, Oficina 806-B, Col. Guadalupe Inn,",
+      "addressLine2": "Alcaldía Álvaro Obregón, C.P. 01020"
+    },
+    "sidebar": {
+      "badge": "Atención directa",
+      "title": "Habla con nosotros ahora.",
+      "description": "Si posees dudas especializadas sobre nuestros nodos cloud, buscas un presupuesto a medida o requieres asistencia con tu plataforma, contacta a nuestro departamento de ingeniería."
+    },
+    "success": {
+      "title": "¡Petición Recibida!",
+      "description": "Valoramos tu confianza. Un especialista de soporte técnico analizará tus necesidades y te responderá por correo electrónico en menos de 24 horas.",
+      "button": "Redactar otro mensaje"
+    },
+    "form": {
+      "error": "Problema al registrar el formulario",
+      "nameLabel": "Nombre Completo",
+      "namePlaceholder": "Ej. Carlos Mendoza",
+      "emailLabel": "Dirección de E-mail",
+      "emailPlaceholder": "carlos@empresa.com",
+      "subjectLabel": "Tema",
+      "subjectPlaceholder": "Presupuesto de plataforma",
+      "messageLabel": "¿Cómo podemos asistirte?",
+      "messagePlaceholder": "Detalla las características de tu sistema o los requerimientos del paquete a la medida que buscas...",
+      "loading": "Transmitiendo datos...",
+      "submit": "Enviar Formulario"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "Panel de Usuarios",
+      "title": "Añadir presupuesto personalizado"
+    },
+    "imageAlt": "Logo de Nexorithm",
+    "authorized": {
+      "title": "Cobro verificado",
+      "description": "Introduce la clave de cotización y el monto previamente validado con nuestra área comercial para avanzar con la facturación."
+    },
+    "form": {
+      "badge": "Checkout a la medida",
+      "title": "Detalles del presupuesto",
+      "quoteLabel": "Clave de cotización",
+      "quotePlaceholder": "Ej. NEX-2026-001",
+      "amountLabel": "Cifra acordada",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ El impuesto correspondiente en el siguiente paso."
+    },
+    "buttons": {
+      "adding": "Sumando a la cesta...",
+      "addToCart": "Añadir a la cesta"
+    },
+    "errors": {
+      "quoteRequired": "Es necesario proporcionar un identificador de cotización válido.",
+      "invalidAmount": "Es necesario indicar una cifra financiera válida."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Herramientas avanzadas de <span>hosting</span> y programación.",
+      "description": "En <strong>Nexorithm</strong>, brindamos servicios de alojamiento de última generación y desarrollo de software orientados a fortalecer tu ecosistema digital con la mayor estabilidad.",
+      "imageAlt": "Soluciones de hosting de Nexorithm"
+    },
+    "featuresSection": {
+      "title": "¿Por qué optar por nuestra red?",
+      "description": "Sistemas optimizados a medida para reducir tiempos de respuesta y garantizar la continuidad de tus plataformas."
+    },
+    "features": {
+      "support": {
+        "title": "Atención especializada 24/7",
+        "text": "Trabaja con total calma mediante nuestra asistencia técnica operativa día y noche. Nuestro personal especializado permanece atento para respaldarte ante cualquier inconveniente, cuidando que tus sistemas rindan de forma ideal."
+      },
+      "security": {
+        "title": "Programación protegida",
+        "text": "Diseña plataformas a la medida priorizando la protección y el crecimiento continuo. Nuestros ingenieros de desarrollo aplican los mayores estándares para salvaguardar tu información y optimizar la navegación del cliente."
+      },
+      "hosting": {
+        "title": "Alojamiento web estable",
+        "text": "Consigue una velocidad excepcional mediante nuestros servidores de hospedaje web avanzados. Pensados para empresas de cualquier escala, garantizando que tu portal web siga online y protegido constantemente."
+      }
+    },
+    "illustrations": {
+      "hosting": {
+        "eyebrow": "Mayor rendimiento",
+        "title": "¿Buscas un hospedaje web de nivel empresarial?",
+        "text": "Con Nexorithm, aseguras la continuidad y rapidez de tu portal. Nuestros esquemas de alojamiento están configurados para brindar el mayor desempeño y protección, logrando que tu entorno esté siempre visible."
+      },
+      "support": {
+        "eyebrow": "Asistencia",
+        "title": "Atención experta permanente",
+        "text": "Nuestra prioridad es darte la ayuda técnica que requieres en el momento justo. Con un equipo de especialistas activo las 24 horas, los 7 días de la semana, resolvemos cualquier eventualidad rápidamente."
+      },
+      "development": {
+        "eyebrow": "Ingeniería confiable",
+        "title": "Sistemas ágiles y robustos",
+        "text": "Convierte tus ideas en soluciones reales con el desarrollo de software a medida. En Nexorithm, sumamos herramientas avanzadas y metodologías de protección referentes en el sector para superar tus metas."
+      }
+    },
+    "learnMore": "Saber más"
+  },
+  "footer": {
+    "logoAlt": "Nexorithm",
+    "titleAlt": "Nexorithm",
+    "description": "Infraestructura en la nube de alta velocidad y desarrollo de plataformas a la medida en México.",
+    "contact": "Soporte",
+    "address": "Avenida Insurgentes 1677, Oficina 806-B, Col. Guadalupe Inn, Álvaro Obregón, Ciudad de México, C.P. 01020",
+    "cardsAlt": "Visa y Mastercard aceptadas",
+    "copyright": "Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Aviso de privacidad",
+      "terms": "Condiciones del servicio",
+      "refunds": "Políticas de cancelación y reembolsos"
+    }
+  }
+}
