@@ -107,12 +107,12 @@ export default function ContactoPage() {
 
             <div className="flex flex-col gap-3 border-t md:border-t-0 md:border-l border-slate-800/80 pt-6 md:pt-0 md:pl-8 text-xs text-slate-400 font-mono">
               <Link
-                href="mailto:contacto@nexorithm.com.mx"
+                href="mailto:clientes@nexorithm.com.mx"
                 className="flex items-center gap-2.5 hover:text-[#cdef24] transition group justify-center md:justify-start"
               >
                 <Mail className="h-4 w-4 text-[#005e50] group-hover:text-[#cdef24]" />
 
-                contacto@nexorithm.com.mx
+                clientes@nexorithm.com.mx
               </Link>
 
               <Link

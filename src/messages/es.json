@@ -79,7 +79,7 @@
     },
     "success": {
       "title": "¡Transacción Completada Exitosamente!",
-      "description": "Tu pago ha sido autorizado. El pedido de tus insumos médicos ya está en fase de preparación para su envío.",
+      "description": "Tu pago ha sido autorizado. El entorno cloud de tu plan de hosting ya está en fase de configuración para su activación.",
       "paymentReference": "Referencia de Pago:",
       "paidAmount": "Monto Liquidado:",
       "transactionStatus": "Estado del Pago:",
@@ -88,12 +88,12 @@
     },
     "empty": {
       "title": "Tu cesta de compras está vacía",
-      "description": "No se detectaron insumos médicos guardados en tu sesión de navegación actual.",
+      "description": "No se detectaron servicios de hosting guardados en tu sesión de navegación actual.",
       "goToStore": "Ver el Catálogo"
     },
     "order": {
       "title": "Productos en tu orden",
-      "clear": "Eliminar Materiales"
+      "clear": "Eliminar Planes"
     },
     "financial": {
       "title": "Resumen de Cuenta",
@@ -123,7 +123,7 @@
     },
     "form": {
       "buyerTitle": "Datos de Facturación / Comprador",
-      "addressTitle": "Información de Entrega y Distribución",
+      "addressTitle": "Información de Contacto y Activación",
       "paymentTitle": "Pasarela de Cobro Encriptada",
       "firstName": "Nombre(s) *",
       "lastName": "Apellidos *",

@@ -44,7 +44,7 @@
     },
     "success": {
       "title": "Payment Authorized Successfully!",
-      "description": "Your transaction has been approved. The records for your medical order are currently being processed.",
+      "description": "Your transaction has been approved. Your cloud hosting plan configuration is currently being processed for immediate activation.",
       "paymentReference": "Payment ID:",
       "paidAmount": "Total Paid:",
       "transactionStatus": "Transaction State:",
@@ -53,12 +53,12 @@
     },
     "empty": {
       "title": "Your shopping cart is empty",
-      "description": "We could not find any medical supplies selected in your current browsing session.",
+      "description": "We could not find any hosting services or plans selected in your current browsing session.",
       "goToStore": "View Catalog"
     },
     "order": {
       "title": "Products in Your Order",
-      "clear": "Remove Items"
+      "clear": "Remove Plans"
     },
     "financial": {
       "title": "Account Summary",
@@ -88,13 +88,13 @@
     },
     "form": {
       "buyerTitle": "Purchaser / Billing Details",
-      "addressTitle": "Shipping and Delivery Address",
+      "addressTitle": "Contact and Activation Details",
       "paymentTitle": "Secured Payment Gateway",
       "firstName": "First Name(s) *",
       "lastName": "Last Name(s) *",
       "email": "Email Address *",
       "phone": "Cell Phone (10 digits) *",
-      "company": "Company (Optional)",
+      "company": "Company Name (Optional)",
       "streetAddress": "Street, Exterior No. and Interior No. *",
       "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
       "neighborhood": "Neighborhood / Intersections (Optional)",

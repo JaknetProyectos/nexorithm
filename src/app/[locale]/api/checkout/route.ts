@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 const BRAND_NAME = "nexorithm.com.mx";
 const BRAND_URL = "https://nexorithm.com.mx";
-const SUPPORT_EMAIL = "hello@centromedicoavanza.com";
+const SUPPORT_EMAIL = "clientes@nexorithm.com.mx";
 
 function formatCurrency(value: number) {
   return new Intl.NumberFormat("es-MX", {
