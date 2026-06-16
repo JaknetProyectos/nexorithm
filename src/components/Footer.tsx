@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { MapPin, Mail, Phone, ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 
@@ -49,39 +49,49 @@ export default function Footer() {
               <span>{t("address")}</span>
             </div>
 
-            <a
+            <Link
               href="mailto:clientes@nexorithm.com.mx"
               className="group flex items-center gap-3 text-[14px] text-slate-300 transition-colors hover:text-[#cdef24] break-all"
             >
               <Mail className="h-5 w-5 text-[#005e50] shrink-0 group-hover:text-[#cdef24] transition-colors" />
 
               <span>clientes@nexorithm.com.mx</span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="tel:525591333573"
               className="group flex items-center gap-3 text-[14px] text-slate-300 transition-colors hover:text-[#cdef24]"
             >
               <Phone className="h-5 w-5 text-[#005e50] shrink-0 group-hover:text-[#cdef24] transition-colors" />
 
               <span>55 9133 3573</span>
-            </a>
+            </Link>
           </div>
 
           {/* Column 3: Legal */}
           <div className="flex flex-col items-center md:items-end gap-6">
             <div className="flex flex-col items-center md:items-end gap-3.5 w-full">
-              {legalLinks.map((item) => (
-                <Link
-                  key={item}
-                  href="/contacto"
-                  className="group inline-flex items-center gap-1.5 font-poppins text-[13px] font-medium text-slate-400 tracking-wide transition-all hover:text-white md:text-right"
-                >
-                  {item}
-
-                  <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 text-[#cdef24] transition-all transform translate-y-0.5" />
-                </Link>
-              ))}
+              <Link
+                href="/legal/privacidad"
+                className="group inline-flex items-center gap-1.5 font-poppins text-[13px] font-medium text-slate-400 tracking-wide transition-all hover:text-white md:text-right"
+              >
+                {t("legal.privacy")}
+                <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 text-[#cdef24] transition-all transform translate-y-0.5" />
+              </Link>
+              <Link
+                href="/legal/terminos"
+                className="group inline-flex items-center gap-1.5 font-poppins text-[13px] font-medium text-slate-400 tracking-wide transition-all hover:text-white md:text-right"
+              >
+                {t("legal.terms")}
+                <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 text-[#cdef24] transition-all transform translate-y-0.5" />
+              </Link>
+              <Link
+                href="/legal/reembolsos"
+                className="group inline-flex items-center gap-1.5 font-poppins text-[13px] font-medium text-slate-400 tracking-wide transition-all hover:text-white md:text-right"
+              >
+                {t("legal.refunds")}
+                <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 text-[#cdef24] transition-all transform translate-y-0.5" />
+              </Link>
             </div>
 
             <div className="pt-4 border-t border-slate-900 w-full flex justify-center md:justify-end">

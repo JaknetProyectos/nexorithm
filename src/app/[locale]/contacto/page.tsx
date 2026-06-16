@@ -19,6 +19,7 @@ import { useTranslations } from "next-intl";
 import Header from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useContact } from "@/hooks/useContact";
+import { Link } from "@/i18n/routing";
 
 export default function ContactoPage() {
   const t = useTranslations("contactPage");
@@ -105,23 +106,23 @@ export default function ContactoPage() {
             </div>
 
             <div className="flex flex-col gap-3 border-t md:border-t-0 md:border-l border-slate-800/80 pt-6 md:pt-0 md:pl-8 text-xs text-slate-400 font-mono">
-              <a
+              <Link
                 href="mailto:contacto@nexorithm.com.mx"
                 className="flex items-center gap-2.5 hover:text-[#cdef24] transition group justify-center md:justify-start"
               >
                 <Mail className="h-4 w-4 text-[#005e50] group-hover:text-[#cdef24]" />
 
                 contacto@nexorithm.com.mx
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="tel:+525585261677"
                 className="flex items-center gap-2.5 hover:text-[#cdef24] transition group justify-center md:justify-start"
               >
                 <Phone className="h-4 w-4 text-[#005e50] group-hover:text-[#cdef24]" />
 
                 +52 (55) 8526-1677
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -279,8 +280,8 @@ export default function ContactoPage() {
                     type="submit"
                     disabled={isLoading}
                     className={`flex h-14 w-full items-center justify-center gap-2 rounded-xl text-sm font-semibold transition-all duration-300 group ${isLoading
-                        ? "bg-slate-800 text-slate-500 cursor-wait"
-                        : "bg-[#cdef24] text-[#0b0f12] hover:bg-[#b8d71f] hover:shadow-[0_0_25px_rgba(205,239,36,0.3)] hover:-translate-y-0.5"
+                      ? "bg-slate-800 text-slate-500 cursor-wait"
+                      : "bg-[#cdef24] text-[#0b0f12] hover:bg-[#b8d71f] hover:shadow-[0_0_25px_rgba(205,239,36,0.3)] hover:-translate-y-0.5"
                       }`}
                   >
                     {isLoading ? (

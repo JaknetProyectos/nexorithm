@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { Check, Cpu, Zap, Layers, Sparkles, ShoppingCart } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 

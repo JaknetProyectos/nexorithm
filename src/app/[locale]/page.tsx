@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { ChevronRight, Shield, Server, Headphones } from "lucide-react";
 import Header from "@/components/Navbar";
 import Footer from "@/components/Footer";
