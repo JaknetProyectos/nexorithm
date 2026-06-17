@@ -266,12 +266,6 @@ export default function CarritoCheckoutPage() {
           </p>
 
           <CardShell className="p-6 text-left w-full space-y-4 mb-8 bg-slate-900/60 border-slate-800">
-            <div className="flex justify-between text-xs">
-              <span className="text-slate-400 font-medium">{t("success.paidAmount")}</span>
-              <span className="font-bold text-[#cdef24] text-sm">
-                {formatPrice(grandTotal, "MXN", true)}
-              </span>
-            </div>
             <div className="flex justify-between text-xs pt-3 border-t border-slate-800/60">
               <span className="text-slate-400 font-medium">{t("success.transactionStatus")}</span>
               <span className="text-[11px] px-2.5 py-0.5 bg-[#005e50]/30 text-[#cdef24] font-bold rounded-full border border-[#005e50]/40">
@@ -280,7 +274,7 @@ export default function CarritoCheckoutPage() {
             </div>
           </CardShell>
 
-          <Link href="/tienda" className="w-full">
+          <Link href="/paquetes" className="w-full">
             <Button className="w-full bg-[#cdef24] hover:bg-[#b8d71f] text-[#0b0f12] py-6 rounded-xl text-sm font-bold tracking-wide shadow-lg hover:shadow-[0_0_25px_rgba(205,239,36,0.25)] transition-all duration-300">
               {t("success.backToCatalog")}
             </Button>
@@ -333,7 +327,7 @@ export default function CarritoCheckoutPage() {
               <p className="text-xs text-slate-400 mb-8 max-w-xs mx-auto leading-relaxed">
                 {t("empty.description")}
               </p>
-              <Link href="/tienda">
+              <Link href="/paquetes">
                 <Button className="bg-[#005e50] hover:bg-[#004d42] border border-[#007a68] text-white rounded-xl px-8 py-5 text-xs font-semibold shadow-md transition-all">
                   {t("empty.goToStore")}
                 </Button>
